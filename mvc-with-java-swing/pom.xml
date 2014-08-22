@@ -1,0 +1,54 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+
+	<groupId>com.link_intersystems.publications.blog</groupId>
+	<artifactId>mvc-with-java-swing</artifactId>
+	<version>2-SNAPSHOT</version>
+	<name>Swing MVC Implementation Example</name>
+	<description>A java swing example application that shows how the MVC pattern can be implemented using java swing.</description>
+
+	<organization>
+		<name>Link Intersystems GmbH</name>
+		<url>http://www.link-intersystems.com</url>
+	</organization>
+
+	<scm>
+		<connection>scm:svn:https://opensource.link-intersystems.com/svn/open-source/examples/trunk/mvc-with-java-swing</connection>
+		<developerConnection>scm:svn:https://opensource.link-intersystems.com/svn/open-source/examples/trunk/mvc-with-java-swing</developerConnection>
+		<url>https://opensource.link-intersystems.com/svn/open-source/examples/trunk/mvc-with-java-swing</url>
+	</scm>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>1.7</source>
+					<target>1.7</target>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>webstart-maven-plugin</artifactId>
+				<version>1.0-beta-3</version>
+				<executions>
+					<execution>
+						<phase>package</phase>
+						<goals>
+							<goal>jnlp-inline</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<jnlp>
+						<outputFile>SwingMVCExampleApplicaion.jnlp</outputFile>
+						<mainClass>com.link_intersystems.publications.blog.mvc.Main</mainClass>
+					</jnlp>
+					<verbose>true</verbose>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>

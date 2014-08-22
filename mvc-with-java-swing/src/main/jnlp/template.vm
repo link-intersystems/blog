@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="$encoding"?>
+<jnlp
+    spec="$jnlpspec"
+    href="$outputFile">
+  <information>
+#if($project.Name)
+    <title>$project.Name</title>
+#end
+#if($project.Organization.Name)
+    <vendor>$project.Organization.Name</vendor>
+#end
+#if($project.Url)
+    <homepage href="$project.Url"/>
+#end
+#if($project.Description)
+    <description>$project.Description</description>
+#end
+#if($offlineAllowed)
+    <offline-allowed/>
+#end
+  </information>
+  <resources>
+    <j2se version="$j2seVersion"/>
+     $dependencies
+  </resources>
+  <application-desc main-class="$mainClass"/>
+</jnlp>
