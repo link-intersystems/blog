@@ -11,6 +11,10 @@
 
 	<dependencies>
 		<dependency>
+			<groupId>com.link_intersystems.blog.api-and-impl</groupId>
+			<artifactId>separated-artifact-api</artifactId>
+		</dependency>
+		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-core</artifactId>
 		</dependency>

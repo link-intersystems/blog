@@ -1,4 +1,4 @@
-package com.link_intersystems.examples.api.impl;
+package com.link_intersystems.examples.service.impl;
 
 import java.util.Properties;
 

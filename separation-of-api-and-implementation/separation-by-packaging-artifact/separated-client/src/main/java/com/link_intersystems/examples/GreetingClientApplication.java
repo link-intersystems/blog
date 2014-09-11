@@ -3,9 +3,9 @@ package com.link_intersystems.examples;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.link_intersystems.examples.api.GreetingRequest;
-import com.link_intersystems.examples.api.GreetingResponse;
-import com.link_intersystems.examples.api.GreetingService;
+import com.link_intersystems.examples.service.GreetingRequest;
+import com.link_intersystems.examples.service.GreetingResponse;
+import com.link_intersystems.examples.service.GreetingService;
 
 @Component
 public class GreetingClientApplication implements Application {

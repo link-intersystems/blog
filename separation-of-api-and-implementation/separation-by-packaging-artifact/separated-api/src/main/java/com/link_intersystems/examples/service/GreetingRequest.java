@@ -1,4 +1,4 @@
-package com.link_intersystems.examples.api;
+package com.link_intersystems.examples.service;
 
 public class GreetingRequest {
 

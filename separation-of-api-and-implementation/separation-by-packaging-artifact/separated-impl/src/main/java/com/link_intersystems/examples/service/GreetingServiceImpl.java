@@ -1,14 +1,14 @@
-package com.link_intersystems.examples.api.impl;
+package com.link_intersystems.examples.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.orm.hibernate4.HibernateTemplate;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.link_intersystems.examples.api.GreetingRequest;
-import com.link_intersystems.examples.api.GreetingResponse;
-import com.link_intersystems.examples.api.GreetingService;
 import com.link_intersystems.examples.domain.Person;
+import com.link_intersystems.examples.service.GreetingRequest;
+import com.link_intersystems.examples.service.GreetingResponse;
+import com.link_intersystems.examples.service.GreetingService;
 
 @Repository
 public class GreetingServiceImpl implements GreetingService {
