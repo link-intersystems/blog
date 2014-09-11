@@ -4,7 +4,7 @@ public class GreetingResponse {
 
 	private String greeting;
 
-	public GreetingResponse(String greeting) {
+	GreetingResponse(String greeting) {
 		this.greeting = greeting;
 	}
 
