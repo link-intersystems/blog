@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.link_intersystems.blog.api-and-impl</groupId>
+		<artifactId>api-impl-separation-by-packages</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+
+	<artifactId>single-artifact-runtime</artifactId>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.link_intersystems.blog.api-and-impl</groupId>
+			<artifactId>single-artifact-client</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.link_intersystems.blog.api-and-impl</groupId>
+			<artifactId>single-artifact-api-and-impl</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>hsqldb</groupId>
+			<artifactId>hsqldb</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+		</dependency>
+	</dependencies>
+</project>
