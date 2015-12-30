@@ -1,34 +1,22 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
+	<parent>
+		<groupId>com.link_intersystems.publications.blog</groupId>
+		<artifactId>blog-parent</artifactId>
+		<version>1-SNAPSHOT</version>
+	</parent>
 
-	<groupId>com.link_intersystems.publications.blog</groupId>
 	<artifactId>mvc-with-java-swing</artifactId>
 	<version>2-SNAPSHOT</version>
+
 	<name>Swing MVC Implementation Example</name>
 	<description>A java swing example application that shows how the MVC pattern can be implemented using java swing.</description>
-
-	<organization>
-		<name>Link Intersystems GmbH</name>
-		<url>http://www.link-intersystems.com</url>
-	</organization>
-
-	<scm>
-		<connection>scm:svn:https://opensource.link-intersystems.com/svn/open-source/examples/trunk/mvc-with-java-swing</connection>
-		<developerConnection>scm:svn:https://opensource.link-intersystems.com/svn/open-source/examples/trunk/mvc-with-java-swing</developerConnection>
-		<url>https://opensource.link-intersystems.com/svn/open-source/examples/trunk/mvc-with-java-swing</url>
-	</scm>
+	<url>http://www.link-intersystems.com/blog/2013/07/20/the-mvc-pattern-implemented-with-java-swing/</url>
 
 	<build>
 		<plugins>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<configuration>
-					<source>1.7</source>
-					<target>1.7</target>
-				</configuration>
-			</plugin>
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>webstart-maven-plugin</artifactId>

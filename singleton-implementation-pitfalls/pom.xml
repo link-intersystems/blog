@@ -2,36 +2,18 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
+	<parent>
+		<groupId>com.link_intersystems.publications.blog</groupId>
+		<artifactId>blog-parent</artifactId>
+		<version>1-SNAPSHOT</version>
+	</parent>
 
-	<groupId>com.link_intersystems.publications.blog</groupId>
+
 	<artifactId>singleton-implementation-pitfalls</artifactId>
-	<version>1-SNAPSHOT</version>
-	<name>Swing MVC Implementation Example</name>
-	<description>A java swing example application that shows how the MVC pattern can be implemented using java swing.</description>
+	<name>Singleton Implementation Pitfalls</name>
+	<description>Demonstrates common pitfalls when implementing the singleton pattern and a way to implement real singletons</description>
+	<url>http://www.link-intersystems.com/blog/2015/05/01/singleton-implementation-pitfalls/</url>
 
-	<organization>
-		<name>Link Intersystems GmbH</name>
-		<url>http://www.link-intersystems.com</url>
-	</organization>
-
-	<scm>
-		<connection>scm:svn:https://opensource.link-intersystems.com/svn/open-source/examples/trunk/mvc-with-java-swing</connection>
-		<developerConnection>scm:svn:https://opensource.link-intersystems.com/svn/open-source/examples/trunk/mvc-with-java-swing</developerConnection>
-		<url>https://opensource.link-intersystems.com/svn/open-source/examples/trunk/mvc-with-java-swing</url>
-	</scm>
-
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<configuration>
-					<source>1.7</source>
-					<target>1.7</target>
-				</configuration>
-			</plugin>
-		</plugins>
-	</build>
 	<dependencies>
 		<dependency>
 			<groupId>org.apache.commons</groupId>
