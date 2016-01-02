@@ -19,6 +19,6 @@
 		<module>java-spi-client</module>
 		<module>java-spi-formal-greeting-service</module>
 		<module>java-spi-casual-greeting-service</module>
-		<module>java-spi-example-zip</module>
+		<module>java-spi-test-drive</module>
 	</modules>
 </project>
