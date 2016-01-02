@@ -1,2 +1,2 @@
 @echo off
-java -cp java-spi-1-SNAPSHOT.jar;java-spi-formal-greeting-service-1-SNAPSHOT.jar;java-spi-client-1-SNAPSHOT.jar com.link_intersystems.blog.plugin.client.GreetingApp %*
+java -cp java-spi.jar;java-spi-formal-greeting-service.jar;java-spi-client.jar com.link_intersystems.blog.plugin.client.GreetingApp %*

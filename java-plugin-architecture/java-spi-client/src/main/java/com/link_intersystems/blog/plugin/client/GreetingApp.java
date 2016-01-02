@@ -11,14 +11,14 @@ import com.link_intersystems.blog.plugin.spi.Gender;
 public class GreetingApp {
 
 	public static void main(String[] args) {
-		Person person = new MainArgsPersonAdapter(args);
-
 		ServiceLoader<GreetingService> greetingServiceLoader = ServiceLoader.load(GreetingService.class);
 
 		Iterator<GreetingService> greetingServices = greetingServiceLoader.iterator();
 		if (!greetingServices.hasNext()) {
 			throw new IllegalStateException("No GreetingService provider found");
 		}
+
+		Person person = new MainArgsPersonAdapter(args);
 
 		while (greetingServices.hasNext()) {
 			GreetingService greetingService = greetingServices.next();
