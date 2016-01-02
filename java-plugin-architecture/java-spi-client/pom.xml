@@ -2,14 +2,14 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>com.link_intersystems.publications.blog</groupId>
-		<artifactId>java-plugin-architecture-blueprint</artifactId>
+		<groupId>com.link_intersystems.blog</groupId>
+		<artifactId>java-plugin-architecture</artifactId>
 		<version>1-SNAPSHOT</version>
 	</parent>
 	<artifactId>java-spi-client</artifactId>
 	<dependencies>
 		<dependency>
-			<groupId>com.link_intersystems.publications.blog</groupId>
+			<groupId>com.link_intersystems.blog</groupId>
 			<artifactId>java-spi</artifactId>
 			<version>1-SNAPSHOT</version>
 		</dependency>
@@ -48,7 +48,7 @@
 			<id>casual</id>
 			<dependencies>
 				<dependency>
-					<groupId>com.link_intersystems.publications.blog</groupId>
+					<groupId>com.link_intersystems.blog</groupId>
 					<artifactId>java-spi-casual-greeting-service</artifactId>
 					<scope>runtime</scope>
 					<version>1-SNAPSHOT</version>
@@ -59,7 +59,7 @@
 			<id>formal</id>
 			<dependencies>
 				<dependency>
-					<groupId>com.link_intersystems.publications.blog</groupId>
+					<groupId>com.link_intersystems.blog</groupId>
 					<artifactId>java-spi-formal-greeting-service</artifactId>
 					<scope>runtime</scope>
 					<version>1-SNAPSHOT</version>

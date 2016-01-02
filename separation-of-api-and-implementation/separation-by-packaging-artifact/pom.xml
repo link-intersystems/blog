@@ -2,9 +2,9 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>com.link_intersystems.blog.api-and-impl</groupId>
+		<groupId>com.link_intersystems.blog</groupId>
 		<artifactId>api-impl-separation</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
+		<version>1-SNAPSHOT</version>
 	</parent>
 
 	<artifactId>api-impl-separation-by-artifact</artifactId>

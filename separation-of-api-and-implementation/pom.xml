@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>com.link_intersystems.publications.blog</groupId>
+		<groupId>com.link_intersystems.blog</groupId>
 		<artifactId>blog-parent</artifactId>
 		<version>1-SNAPSHOT</version>
 	</parent>
@@ -14,7 +14,7 @@
 
 	<modules>
 		<module>separation-by-java-packages</module>
-		<module>api-impl-separation-by-artifact</module>
+		<module>separation-by-packaging-artifact</module>
 	</modules>
 
 	<dependencyManagement>

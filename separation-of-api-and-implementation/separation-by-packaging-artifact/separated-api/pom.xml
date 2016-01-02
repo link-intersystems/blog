@@ -3,9 +3,9 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>com.link_intersystems.blog.api-and-impl</groupId>
+		<groupId>com.link_intersystems.blog</groupId>
 		<artifactId>api-impl-separation-by-artifact</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
+		<version>1-SNAPSHOT</version>
 	</parent>
 
 	<artifactId>separated-artifact-api</artifactId>

@@ -4,7 +4,7 @@
 	<artifactId>anemic-vs-rich-domain-model</artifactId>
 
 	<parent>
-		<groupId>com.link_intersystems.publications.blog</groupId>
+		<groupId>com.link_intersystems.blog</groupId>
 		<artifactId>blog-parent</artifactId>
 		<version>1-SNAPSHOT</version>
 	</parent>

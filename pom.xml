@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	
-	<groupId>com.link_intersystems.publications.blog</groupId>
+	<groupId>com.link_intersystems.blog</groupId>
 	<artifactId>blog-parent</artifactId>
 	<version>1-SNAPSHOT</version>	
 	<packaging>pom</packaging>
@@ -52,5 +52,14 @@
 		<module>java-proxy-pitfalls</module>
 		<module>mvc-with-java-swing</module>
 		<module>singleton-implementation-pitfalls</module>
+		<module>separation-of-api-and-implementation</module>
 	</modules>
+	<name>Blogs - Link Intersystems </name>
+	<url>http://www.link-intersystems.com/blog</url>
+	<description>This project's submodules contain the source code of blog posts I have written. Take a look at http://www.link-intersystems.com/blog or the submodules for details.</description>
+	<scm>
+		<url>https://github.com/link-intersystems/blog</url>
+		<connection>scm:git:https://github.com/link-intersystems/blog</connection>
+		<developerConnection>scm:git:https://github.com/link-intersystems/blog</developerConnection>
+	</scm>
 </project>

@@ -3,12 +3,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>com.link_intersystems.publications.blog</groupId>
+		<groupId>com.link_intersystems.blog</groupId>
 		<artifactId>blog-parent</artifactId>
 		<version>1-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>java-plugin-architecture-blueprint</artifactId>
+	<artifactId>java-plugin-architecture</artifactId>
 	<packaging>pom</packaging>
 
 	<name>Java Plugin Architecture Blueprint</name>
