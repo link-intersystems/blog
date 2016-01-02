@@ -1,3 +1,8 @@
+Travis CI
+=========
+[![Build Status](https://travis-ci.org/link-intersystems/blog.svg?branch=master)](https://travis-ci.org/link-intersystems/blog)
+
+
 blog
 ====
 
