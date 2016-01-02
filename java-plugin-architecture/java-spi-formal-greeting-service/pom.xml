@@ -2,8 +2,8 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>com.link_intersystems.publications.blog</groupId>
-    <artifactId>java-plugin-architecture</artifactId>
     <version>1-SNAPSHOT</version>
+    <artifactId>java-plugin-architecture-blueprint</artifactId>
   </parent>
   <artifactId>java-spi-formal-greeting-service</artifactId>
   <dependencies>

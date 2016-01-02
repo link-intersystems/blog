@@ -18,8 +18,6 @@ public class CGlibProxyEqualsTest {
 
 	private Person personProxy1;
 
-	private Person personProxy2;
-
 	@Before
 	public void createProxyAndTargetObjects() {
 		cGlibProxyFactory = new CGlibProxyFactory();
@@ -29,7 +27,6 @@ public class CGlibProxyEqualsTest {
 		Assert.assertEquals("persons with equal firstname and lastname should be equal", person1, person2);
 
 		personProxy1 = createProxy(person1);
-		personProxy2 = createProxy(person2);
 	}
 
 	private Person createProxy(Person person) {
