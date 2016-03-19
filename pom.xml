@@ -53,6 +53,7 @@
 		<module>mvc-with-java-swing</module>
 		<module>singleton-implementation-pitfalls</module>
 		<module>separation-of-api-and-implementation</module>
+		<module>progress-object-pattern</module>
 	</modules>
 	<name>Blogs - Link Intersystems </name>
 	<url>http://www.link-intersystems.com/blog</url>
