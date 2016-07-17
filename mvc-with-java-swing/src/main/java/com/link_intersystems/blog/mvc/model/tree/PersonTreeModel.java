@@ -14,9 +14,6 @@ import com.link_intersystems.blog.mvc.model.list.ListAdapterListModel;
 
 public class PersonTreeModel extends DefaultTreeModel {
 
-	/**
-	 *
-	 */
 	private static final long serialVersionUID = 1572938192116000199L;
 
 	private ListModelChangeAdapter listModelChangeAdapter = new ListModelChangeAdapter();

@@ -16,21 +16,20 @@ public class PersonTreeCellRenderer extends DefaultTreeCellRenderer {
 	 */
 	private static final long serialVersionUID = 1515795958576231663L;
 
-	public Component getTreeCellRendererComponent(JTree tree, Object value,
-			boolean selected, boolean expanded, boolean leaf, int row,
-			boolean hasFocus) {
-		super.getTreeCellRendererComponent(tree, value, selected, expanded,
-				leaf, row, hasFocus);
+	public Component getTreeCellRendererComponent(JTree tree, Object value, boolean selected, boolean expanded,
+	        boolean leaf, int row, boolean hasFocus) {
+		super.getTreeCellRendererComponent(tree, value, selected, expanded, leaf, row, hasFocus);
+
 		if (value instanceof PersonTreeNode) {
 			PersonTreeNode personTreeNode = (PersonTreeNode) value;
 			renderPersonNode(personTreeNode);
 		} else if (value instanceof AddressTreeNode) {
 			AddressTreeNode addressTreeNode = (AddressTreeNode) value;
 			Address address = addressTreeNode.getAddress();
-			AddressProperty addressProperty = addressTreeNode
-					.getAddressProperty();
+			AddressProperty addressProperty = addressTreeNode.getAddressProperty();
 			renderAddressNode(address, addressProperty);
 		}
+
 		return this;
 	}
 
@@ -42,8 +41,7 @@ public class PersonTreeCellRenderer extends DefaultTreeCellRenderer {
 		setText(label);
 	}
 
-	private void renderAddressNode(Address address,
-			AddressProperty addressProperty) {
+	private void renderAddressNode(Address address, AddressProperty addressProperty) {
 		String label = null;
 		switch (addressProperty) {
 		case STREET:
